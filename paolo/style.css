@@ -1,0 +1,51 @@
+body {
+    background-image: url("slipknot.jfif");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Gloock', serif;
+    color: rgb(248, 248, 248);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.p-1 {
+    text-shadow: 1px 1px black;
+    background-color:rgb(110, 0, 37);
+    padding: 4px 6px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+.p-2{
+    text-shadow: 1px 1px black;
+    background-color:rgb(110, 0, 37);
+    padding: 4px 6px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+.p-3 {
+    text-shadow: 1px 1px black;
+    background-color:rgb(110, 0, 37);
+    padding: 4px 6px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+#cover {
+    width: 400px;
+    height: 400px;
+    background-image: url(slipknot\ cover.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+#cover:hover {
+    background-image: url(heavy.jfif)
+}
